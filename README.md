@@ -1,9 +1,9 @@
 <div align="center">
-  <span style="font-size:72px">🔥</span>
+  <img src="README/assets/navy-flame.svg" alt="Navy flame" width="180">
 
   # Learning App
 
-  تطبيق iOS لمتابعة أهداف التعلم اليومية، إنشاء سلاسل متتالية، وإدارة أيام التعلم والتجميد.
+  An iOS app for tracking daily learning goals, maintaining streaks, and managing learned and freezed days.
 </div>
 
 ## Screenshots
@@ -16,17 +16,17 @@
 
 ## Features
 
-- إنشاء هدف تعلم وتحديد المدة: أسبوع، شهر، أو سنة
-- تسجيل يوم تعليمي والحفاظ على سلسلة التعلم
-- تجميد الأيام وفق حدود الهدف
-- تقويم شهري يعرض الأيام المسجلة والمجمدة
-- حفظ التقدم على الجهاز
-- واجهة SwiftUI داكنة بتأثيرات زجاجية
+- Create a learning goal with a week, month, or year duration
+- Log learning days and maintain a streak
+- Freezed days with duration-based limits
+- Monthly calendar showing learned and freezed days
+- Save progress on the device
+- Dark SwiftUI interface with glass effects
 
 ## Requirements
 
 - macOS
-- Xcode 26 أو أحدث
+- Xcode 26 or later
 - iOS 27 Simulator
 
 ## Run
@@ -37,4 +37,4 @@ cd LearningApp
 xed LearningApp.xcodeproj
 ```
 
-اختر مخطط **LearningApp** ثم جهاز iPhone من Xcode واضغط **Run**.
+Choose the **LearningApp** scheme, select an iPhone simulator in Xcode, and press **Run**.
