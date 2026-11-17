@@ -1,7 +1,7 @@
 # LearningApp
 
 <p align="center">
-  <img src="README/assets/navy-flame.svg" alt="LearningApp flame" width="150">
+  <img src="README/assets/orange-flame.svg" alt="LearningApp orange flame" width="150">
 </p>
 
 <p align="center">
