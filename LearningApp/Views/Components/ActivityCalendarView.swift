@@ -156,13 +156,13 @@ private struct NativeMonthCalendar: View {
                             .frame(width: 34, height: 34)
                     } else if learned {
                         Circle()
-                            .fill(Color.orange.opacity(0.18))
-                            .overlay(Circle().stroke(Color.orange.opacity(0.28), lineWidth: 1))
+                            .fill(Color.orange.opacity(0.10))
+                            .overlay(Circle().stroke(Color.orange.opacity(0.35), lineWidth: 1))
                             .frame(width: 34, height: 34)
                     } else if frozen {
                         Circle()
-                            .fill(Color.cyan.opacity(0.18))
-                            .overlay(Circle().stroke(Color.cyan.opacity(0.28), lineWidth: 1))
+                            .fill(Color.cyan.opacity(0.10))
+                            .overlay(Circle().stroke(Color.cyan.opacity(0.35), lineWidth: 1))
                             .frame(width: 34, height: 34)
                     }
                 }

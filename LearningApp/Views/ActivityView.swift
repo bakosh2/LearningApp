@@ -119,7 +119,7 @@ struct ActivityView: View {
             }
             .accessibilityLabel("Open activity calendar")
             Button { showingGoalEditor = true } label: {
-                Image(systemName: "timer")
+                Image(systemName: "pencil.and.outline")
                     .font(.system(size: 20, weight: .regular))
                     .foregroundStyle(.white)
                     .overlay(alignment: .topTrailing) {
